@@ -13,8 +13,6 @@ from utils import *
 import asyncio
 from subprocess import Popen
 from discord.voice_client import VoiceClient
-if not discord.opus.is_loaded():
-    discord.opus.load_opus('opus')
 
 
 startup_extensions = ["Music"]
