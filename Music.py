@@ -23,7 +23,6 @@ def load_opus_lib(opus_libs=OPUS_LIBS):
 
 def __init__(self, bot):
         self.bot = bot
-        load_opus_lib()
 
 
 class VoiceEntry:
@@ -242,3 +241,5 @@ class Music:
 def setup(bot):
     bot.add_cog(Music(bot))
     print('Music is loaded')
+    load_opus_lib()
+    print("Pls Load")
