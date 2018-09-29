@@ -1,1 +1,1 @@
-worker: python3 Rival.py
+worker: python Rival.py
