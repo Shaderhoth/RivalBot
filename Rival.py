@@ -107,14 +107,14 @@ async def on_message(message):
         logger.info(str(message.author) + ": " + str(message.content))
     await bot.process_commands(message)
 
-if __name__ == "__main__":
-    for extension in startup_extensions:
-        try:
-            bot.load_extension(extension)
-        except Exception as e:
-            exc = '{}: {}'.format(type(e).__name__, e)
-            print('failed to load extension {}\n{}'.format(extension,exc))
-
+#if __name__ == "__main__":
+#    for extension in startup_extensions:
+#        try:
+#            bot.load_extension(extension)
+#        except Exception as e:
+#            exc = '{}: {}'.format(type(e).__name__, e)
+#            print('failed to load extension {}\n{}'.format(extension,exc))
+#
 bot.run("NDY1NDg1Mzk3MTQxNzQ5Nzcw.DiOMlA.tpk1l-k95lSnTkbjiyrd6jxHjuk")
 
 
