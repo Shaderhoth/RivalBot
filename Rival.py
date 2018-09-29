@@ -82,7 +82,9 @@ class Main_Commands():
     async def request(ctx, Text):
         author = ctx.message.author
         print(str(author) + ': ' + str(Text))
-    
+        user = discord.User()
+        user.id = 266206560596918283
+        await bot.send_message(user, (str(message.author) + ": " + str(message.content)))    
     @bot.command(pass_context=True, help="kicks a user")
     async def kick(ctx, user: discord.User):
         author = ctx.message.author
@@ -105,6 +107,9 @@ class Main_Commands():
         if message.server is None and message.author != bot.user:
             print(str(message.author) + ": " + str(message.content))
             logger.info(str(message.author) + ": " + str(message.content))
+            user = discord.User()
+            user.id = 266206560596918283
+            await bot.send_message(user, (str(message.author) + ": " + str(message.content)))
         await bot.process_commands(message)
     
 #if __name__ == "__main__":
@@ -114,7 +119,6 @@ class Main_Commands():
 #        except Exception as e:
 #            exc = '{}: {}'.format(type(e).__name__, e)
 #            print('failed to load extension {}\n{}'.format(extension,exc))
-#
 bot.run("NDY1NDg1Mzk3MTQxNzQ5Nzcw.DiOMlA.tpk1l-k95lSnTkbjiyrd6jxHjuk")
 
 
