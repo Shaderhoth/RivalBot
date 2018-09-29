@@ -8,11 +8,13 @@ OPUS_LIBS = ['libopus-0.x86.dll', 'libopus-0.x64.dll', 'libopus-0.dll', 'libopus
 
 def load_opus_lib(opus_libs=OPUS_LIBS):
     if opus.is_loaded():
+        print("opus is loaded")
         return True
 
     for opus_lib in opus_libs:
         try:
             opus.load_opus(opus_lib)
+            print("Loaded opus from " + opus_lib)
             return
         except OSError:
             pass
