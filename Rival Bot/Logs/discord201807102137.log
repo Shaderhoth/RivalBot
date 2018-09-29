@@ -1,9 +1,0 @@
-2018-07-10 21:37:22,820:INFO:discord.client: on_ready has successfully been registered as an event
-2018-07-10 21:37:22,820:INFO:discord.client: on_message has successfully been registered as an event
-2018-07-10 21:37:22,820:INFO:discord.client: logging in using static token
-2018-07-10 21:37:23,950:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
-2018-07-10 21:37:23,951:INFO:discord.gateway: sent the identify payload to create the websocket
-2018-07-10 21:37:30,519:INFO:discord.client: attempting to join voice channel [ ❗ ] moveback’s alerts
-2018-07-10 21:37:30,660:INFO:discord.gateway: Unhandled event VOICE_SERVER_UPDATE
-2018-07-10 21:37:30,661:INFO:discord.voice_client: created opus encoder with {'sampling_rate': 48000, 'channels': 2, 'application': 2049, 'frame_length': 20, 'sample_size': 4, 'samples_per_frame': 960, 'frame_size': 3840, '_state': <discord.opus.LP_EncoderStruct object at 0x00000272493D1148>}
-2018-07-10 21:37:30,661:INFO:discord.voice_client: voice connection is connecting...

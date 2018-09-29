@@ -1,6 +1,0 @@
-2018-07-09 22:17:32,257:INFO:discord.client: on_ready has successfully been registered as an event
-2018-07-09 22:17:32,257:INFO:discord.client: on_message has successfully been registered as an event
-2018-07-09 22:17:32,258:INFO:discord.client: logging in using static token
-2018-07-09 22:17:33,141:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
-2018-07-09 22:17:33,142:INFO:discord.gateway: sent the identify payload to create the websocket
-2018-07-09 22:17:38,153:INFO:discord: Shaderhoth#5695: test
