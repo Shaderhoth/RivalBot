@@ -1,0 +1,22 @@
+2018-07-10 21:31:11,528:INFO:discord.client: on_ready has successfully been registered as an event
+2018-07-10 21:31:11,529:INFO:discord.client: on_message has successfully been registered as an event
+2018-07-10 21:31:11,529:INFO:discord.client: logging in using static token
+2018-07-10 21:31:12,739:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+2018-07-10 21:31:12,740:INFO:discord.gateway: sent the identify payload to create the websocket
+2018-07-10 21:31:19,628:INFO:discord.client: attempting to join voice channel General
+2018-07-10 21:31:19,856:INFO:discord.gateway: Unhandled event VOICE_SERVER_UPDATE
+2018-07-10 21:31:19,856:INFO:discord.voice_client: created opus encoder with {'sampling_rate': 48000, 'channels': 2, 'application': 2049, 'frame_length': 20, 'sample_size': 4, 'samples_per_frame': 960, 'frame_size': 3840, '_state': <discord.opus.LP_EncoderStruct object at 0x000001F62809C048>}
+2018-07-10 21:31:19,856:INFO:discord.voice_client: voice connection is connecting...
+2018-07-10 21:31:19,902:INFO:discord.voice_client: Voice endpoint found eu-west499.discord.gg (IP: 88.202.186.141)
+2018-07-10 21:31:20,352:INFO:discord.gateway: selected the voice protocol for use
+2018-07-10 21:31:20,392:INFO:discord.gateway: received secret key for voice connection
+2018-07-10 21:33:11,846:INFO:discord.client: attempting to join voice channel [ ❗ ] moveback’s alerts
+2018-07-10 21:33:11,996:INFO:discord.gateway: Unhandled event VOICE_SERVER_UPDATE
+2018-07-10 21:33:11,996:INFO:discord.voice_client: created opus encoder with {'sampling_rate': 48000, 'channels': 2, 'application': 2049, 'frame_length': 20, 'sample_size': 4, 'samples_per_frame': 960, 'frame_size': 3840, '_state': <discord.opus.LP_EncoderStruct object at 0x000001F62840F7C8>}
+2018-07-10 21:33:11,996:INFO:discord.voice_client: voice connection is connecting...
+2018-07-10 21:33:12,046:INFO:discord.voice_client: Voice endpoint found us-east949.discord.gg (IP: 104.153.87.158)
+2018-07-10 21:37:03,720:INFO:discord.client: attempting to join voice channel [ ❗ ] moveback’s alerts
+2018-07-10 21:37:03,872:INFO:discord.gateway: Unhandled event VOICE_SERVER_UPDATE
+2018-07-10 21:37:03,872:INFO:discord.voice_client: created opus encoder with {'sampling_rate': 48000, 'channels': 2, 'application': 2049, 'frame_length': 20, 'sample_size': 4, 'samples_per_frame': 960, 'frame_size': 3840, '_state': <discord.opus.LP_EncoderStruct object at 0x000001F628444148>}
+2018-07-10 21:37:03,872:INFO:discord.voice_client: voice connection is connecting...
+2018-07-10 21:37:03,873:INFO:discord.voice_client: Voice endpoint found us-east949.discord.gg (IP: 104.153.87.158)

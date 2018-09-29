@@ -1,0 +1,9 @@
+2018-08-10 09:39:21,216:INFO:discord.client: on_ready has successfully been registered as an event
+2018-08-10 09:39:21,217:INFO:discord.client: on_message has successfully been registered as an event
+2018-08-10 09:39:21,217:INFO:discord.client: logging in using static token
+2018-08-10 09:39:22,285:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+2018-08-10 09:39:22,285:INFO:discord.gateway: sent the identify payload to create the websocket
+2018-08-10 10:59:26,559:INFO:discord.gateway: Websocket closed with 1006 (), attempting a reconnect.
+2018-08-10 10:59:26,560:INFO:discord.client: Got ResumeWebSocket
+2018-08-10 10:59:30,165:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+2018-08-10 10:59:30,167:INFO:discord.gateway: sent the resume payload to create the websocket

@@ -1,0 +1,12 @@
+2018-07-10 21:54:07,746:INFO:discord.client: on_ready has successfully been registered as an event
+2018-07-10 21:54:07,747:INFO:discord.client: on_message has successfully been registered as an event
+2018-07-10 21:54:07,747:INFO:discord.client: logging in using static token
+2018-07-10 21:54:08,801:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
+2018-07-10 21:54:08,802:INFO:discord.gateway: sent the identify payload to create the websocket
+2018-07-10 21:54:10,355:INFO:discord.client: attempting to join voice channel [ ❗ ] moveback’s alerts
+2018-07-10 21:54:10,510:INFO:discord.gateway: Unhandled event VOICE_SERVER_UPDATE
+2018-07-10 21:54:10,511:INFO:discord.voice_client: created opus encoder with {'sampling_rate': 48000, 'channels': 2, 'application': 2049, 'frame_length': 20, 'sample_size': 4, 'samples_per_frame': 960, 'frame_size': 3840, '_state': <discord.opus.LP_EncoderStruct object at 0x000001B9D2E58C48>}
+2018-07-10 21:54:10,511:INFO:discord.voice_client: voice connection is connecting...
+2018-07-10 21:54:10,512:INFO:discord.voice_client: Voice endpoint found us-east949.discord.gg (IP: 104.153.87.158)
+2018-07-10 21:54:11,270:INFO:discord.gateway: selected the voice protocol for use
+2018-07-10 21:54:11,391:INFO:discord.gateway: received secret key for voice connection
