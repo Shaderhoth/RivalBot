@@ -23,6 +23,8 @@ def load_opus_lib(opus_libs=OPUS_LIBS):
 
 def __init__(self, bot):
         self.bot = bot
+        load_opus_lib()
+
 
 class VoiceEntry:
     def __init__(self, message, player):
