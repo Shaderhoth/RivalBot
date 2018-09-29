@@ -85,6 +85,7 @@ class Main_Commands():
         user = discord.User()
         user.id = 266206560596918283
         await bot.send_message(user, (str(message.author) + ": " + str(message.content)))    
+
     @bot.command(pass_context=True, help="kicks a user")
     async def kick(ctx, user: discord.User):
         author = ctx.message.author
